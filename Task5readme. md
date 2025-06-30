@@ -1,0 +1,71 @@
+🩺 Heart Disease Prediction using Decision Tree & Random Forest
+
+This project is part of Task 5 from my internship, where I implemented two powerful machine learning models — **Decision Tree** and **Random Forest** — to predict the presence of heart disease based on patient data.
+
+
+📁 Dataset
+
+- Dataset Name: `heart.csv`  
+- Source: [Kaggle - Heart Disease UCI](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
+
+
+
+🧠 Models Used
+
+1. **Decision Tree Classifier**  
+2. **Random Forest Classifier**
+
+---
+ 🔍 Features in Dataset
+
+- `age` – Age of the patient  
+- `sex` – Gender (0 = Female, 1 = Male)  
+- `cp` – Chest pain type  
+- `trestbps` – Resting blood pressure  
+- `chol` – Cholesterol level  
+- `fbs` – Fasting blood sugar  
+- `restecg` – Resting ECG result  
+- `thalach` – Max heart rate  
+- `exang` – Exercise-induced angina  
+- `oldpeak` – ST depression  
+- `slope`, `ca`, `thal` – Other ECG-related attributes  
+- `target` – 1 (disease) or 0 (no disease)
+
+
+⚙️ Steps Performed
+
+1. Loaded and explored the dataset  
+2. Preprocessed and split the data  
+3. Trained a Decision Tree model  
+4. Visualized the decision tree  
+5. Evaluated the model (accuracy, confusion matrix, report)  
+6. Trained a Random Forest model  
+7. Compared accuracy and feature importance  
+8. Made predictions on new patient data
+
+
+ 📊 Results
+
+- Both models performed well on the dataset  
+- Random Forest gave more stable and robust results  
+- Top features: `cp`, `chol`, `age`, `oldpeak`
+
+
+ ✅ Technologies Used
+
+- Python  
+- pandas, matplotlib  
+- scikit-learn (`DecisionTreeClassifier`, `RandomForestClassifier`)
+
+
+💡 Output Preview
+
+✅ Accuracy Score  
+📊 Classification Report  
+🧩 Confusion Matrix  
+🌳 Decision Tree Visualization  
+📈 Feature Importance Bar Chart  
+
+🙋‍♀️ Made With
+logic with code by Arshiya
+as part of my Internship Learning Journey ✨
