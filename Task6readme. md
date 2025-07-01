@@ -1,0 +1,82 @@
+
+
+🧠 Task 6 – K-Nearest Neighbors Classifier
+
+🎯 Objective:
+
+To implement the K-Nearest Neighbors (KNN) algorithm using the Iris dataset, and classify flower species based on sepal and petal measurements.
+
+🧰 Tools & Libraries Used:
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Scikit-learn (sklearn)
+
+Google Colab
+
+📂 Dataset:
+
+Name: Iris.csv
+
+Source: sklearn.datasets.load_iris()
+
+Target: Predict the flower species (Setosa, Versicolor, Virginica)
+
+🔍 Features in Dataset:
+
+Feature	Description
+
+sepal length (cm)	Length of the sepal
+sepal width (cm)	Width of the sepal
+petal length (cm)	Length of the petal
+petal width (cm)	Width of the petal
+species	Type of flower (target variable)
+
+⚙️ Steps Performed:
+
+1. Loaded the Iris dataset using sklearn.datasets.load_iris()
+
+
+2. Converted the data into a Pandas DataFrame
+
+
+3. Created a CSV file from the dataset
+
+
+4. Split the dataset into features (X) and target (y)
+
+
+5. Split the data into training and testing sets
+
+
+6. Applied K-Nearest Neighbors (KNN) classification
+
+
+7. Made predictions on test data
+
+
+8. Evaluated performance using:
+
+Confusion Matrix
+
+Accuracy Score
+
+9. Visualized predictions using a scatter plot
+
+✅ Output:
+
+Confusion Matrix
+
+Accuracy Score
+
+Plot showing real vs predicted classes
+👩‍💻 Submitted by:
+
+Arshiya Samreen
+Internship Project – TechnohEducation
