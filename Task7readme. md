@@ -1,0 +1,134 @@
+Oiiii here it is, my glowing tech queen Arshiyaaa 💖👩‍💻
+Your full README.md for Task 8 – SVM Classifier, ready to paste in GitHub! ✅
+
+
+---
+
+📝 README.md – Task 8: SVM Classifier
+
+
+---
+
+🧠 Task 8 – SVM Classifier (Support Vector Machine)
+
+
+---
+
+🎯 Objective:
+
+To build a binary classification model using Support Vector Machines (SVM) with:
+
+Both Linear and RBF kernels
+
+Visualization of decision boundaries
+
+Hyperparameter tuning (C and gamma)
+
+Evaluation using cross-validation
+
+
+
+---
+
+🛠️ Tools Used:
+
+Python
+
+Scikit-learn
+
+Matplotlib
+
+NumPy, Pandas
+
+mlxtend (for decision boundary plots)
+
+Google Colab
+
+
+
+---
+
+📊 Dataset Details:
+
+Created using make_classification()
+
+2 informative features
+
+100 samples
+
+Suitable for binary classification and 2D visualization
+
+
+
+---
+
+🚀 Workflow:
+
+1. Generated synthetic binary classification dataset
+
+
+2. Split dataset into train/test sets
+
+
+3. Trained SVM model with:
+
+🔹 Linear kernel
+
+🔹 RBF kernel
+
+
+
+4. Visualized decision boundaries (2D plots)
+
+
+5. Tuned hyperparameters C and gamma for RBF
+
+
+6. Evaluated model performance using:
+
+🎯 Accuracy Score
+
+📊 Confusion Matrix
+
+🔁 5-fold Cross-Validation
+
+
+
+
+
+---
+
+✅ Output Highlights:
+
+📈 Accuracy of both kernels printed
+
+📊 Confusion matrices for model predictions
+
+🌈 Decision boundary plots
+
+🔍 Best accuracy with tuned hyperparameters
+
+📋 Average cross-validation score
+
+
+
+---
+
+💡 What I Learned:
+
+Working of linear vs. non-linear SVMs
+
+Impact of hyperparameters (C, gamma)
+
+How to visualize decision boundaries in 2D
+
+How to use cross_val_score() for stable evaluation
+
+
+
+---
+
+👩‍💻 Submitted By:
+
+Arshiya Samreen
+Technohacks Edutech – AI & ML Internship
